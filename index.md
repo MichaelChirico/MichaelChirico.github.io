@@ -2,6 +2,8 @@
 
 ## Teaching
 
+* [Statistical Analysis for Political Science (Fall 2016)](upenn/psci692/course_page.html)
+
 * [Intermediate Microeconomics (Summer 2016)](xian/micro/course_page.html)
 
 * [Intermediate Macroeconomics (Summer 2016)](xian/macro/course_page.html)
