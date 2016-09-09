@@ -16,4 +16,8 @@
 
 * [`texr`](https://github.com/MichaelChirico/texr): simple, robust interface for converting R objects into TeX tables, etc. Very early-stage.
 
+## Miscellany
+
+* [All-Time MLB Home Run Leaders](https://michaelchirico.shinyapps.io/home_runs/): I made a `shiny` app which depicts, for a chosen year, the make-up of the top-ten list in the MLB for all-time home runs, and the trajectory of how each player's HR count evolved over the course of their career. The code for this is [here](https://github.com/MichaelChirico/assorted_code/tree/master/home_runs).
+
 _you can check out the rest of my analysis portfolio at my [GitHub Page](https://github.com/MichaelChirico)_
