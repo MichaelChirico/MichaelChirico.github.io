@@ -118,7 +118,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Supplement to PS 9 Solutions</h1>
 <h4 class="author"><em>Michael Chirico</em></h4>
-<h4 class="date"><em>Compiled November 14, 2016 at 01:03</em></h4>
+<h4 class="date"><em>Compiled November 14, 2016 at 14:51</em></h4>
 
 </div>
 
@@ -217,6 +217,9 @@ thermo[ , .(lower = mean(x) - qt(.995, df = .N - 1L)*sd(x)/sqrt(.N),
 <p>That means <span class="math inline">\(\beta(\alpha) - \alpha\)</span> is strictly increasing in <span class="math inline">\(\alpha\)</span>, so the optimal <span class="math inline">\(\alpha\)</span> is indeed 0.</p>
 <p>That means <span class="math inline">\(a^{*} = 1\)</span> and <span class="math inline">\(b^{*} = \frac1{\sqrt[n]{1 - p}}\)</span>, the latter of which approaches 1 as <span class="math inline">\(n\)</span> increases. Thus (recalling that this specification is fully flexible given that <span class="math inline">\(\theta_0 \geq \hat{\theta}_n\)</span>) the optimal confidence interval takes the form:</p>
 <p><span class="math display">\[ \left[ \hat{\theta}_n, \frac1{\sqrt[n]{1 - p}} \hat{\theta}_n \right] \]</span></p>
+<p>Recall that the unbiased estimate for <span class="math inline">\(\theta_0\)</span> is <span class="math inline">\(\frac{n+1}{n} \hat{\theta}_n\)</span>. Unlike for the symmetric confidince interval, there’s no guarantee that this optimal interval contains this unbiased estimate for all <span class="math inline">\(p\)</span>! This is easy to see if we set <span class="math inline">\(p = 0\)</span>, in which case the interval collapses to the single point <span class="math inline">\(\hat{\theta}_n\)</span>.</p>
+<p>For <span class="math inline">\(\frac{n+1}{n} \hat{\theta}_n\)</span> to be in the interval above, we must have <span class="math inline">\(\frac1{\sqrt[n]{1-p}} \geq \frac{n+1}{n}\)</span>, which is in turn equivalent to <span class="math inline">\(p \geq 1 - \left( 1 + \frac1{n} \right)^{-n}\)</span>; for <span class="math inline">\(n = 1\)</span>, this is <span class="math inline">\(p \geq \frac12\)</span>, and as <span class="math inline">\(n \rightarrow \infty\)</span>, this increases to the limiting value <span class="math inline">\(p \geq 1 - \frac1{e} \approx .63\)</span>.</p>
+<p>(So in fact, for any reasonable <span class="math inline">\(n\)</span> and any common <span class="math inline">\(p\)</span> such as <span class="math inline">\(.9\)</span> or <span class="math inline">\(.95\)</span>, the interval does in fact contain the unbiased estimate)</p>
 </div>
 <div id="section-1" class="section level1">
 <h1>3</h1>
