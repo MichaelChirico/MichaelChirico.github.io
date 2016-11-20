@@ -20,4 +20,6 @@
 
 * [All-Time MLB Home Run Leaders](https://michaelchirico.shinyapps.io/home_runs/): I made a `shiny` app which depicts, for a chosen year, the make-up of the top-ten list in the MLB for all-time home runs, and the trajectory of how each player's HR count evolved over the course of their career. The code for this is [here](https://github.com/MichaelChirico/assorted_code/tree/master/home_runs).
 
+* [Competitiveness of Major Sports Leagues](http://imgur.com/dy8ym3Y): Using the Gini coefficient on win percentages within a season (recorded from a web scraping exercise) to quantify the evolution over time of the competitiveness of each of the four major sports leagues in the USA -- NFL, MLB, NBA, and NHL. Code [here](https://github.com/MichaelChirico/assorted_code/blob/master/sports_gini.R).
+
 _you can check out the rest of my analysis portfolio at my [GitHub Page](https://github.com/MichaelChirico)_
