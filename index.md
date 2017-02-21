@@ -2,6 +2,8 @@
 
 ## Teaching
 
+* Statistics for Economists (Spring 2017) [[Course Page](http://ditraglia.com/Econ103Public/)] [[Course GitHub](https://github.com/fditraglia/Econ103Public)]
+
 * [Statistical Analysis for Political Science (Fall 2016)](upenn/psci692/course_page.html)
 
 * [Intermediate Microeconomics (Summer 2016)](xian/micro/course_page.html)
@@ -22,7 +24,7 @@
 
 * [Competitiveness of Major Sports Leagues](http://imgur.com/dy8ym3Y): Using the Gini coefficient on win percentages within a season (recorded from a web scraping exercise) to quantify the evolution over time of the competitiveness of each of the four major sports leagues in the USA -- NFL, MLB, NBA, and NHL. Code [here](https://github.com/MichaelChirico/assorted_code/blob/master/sports_gini.R).
 
-* [Citation Signature Plot of Economics Journals](http://imgur.com/uHTa4sG): As suggested by [Frank Diebold](http://fxdiebold.blogspot.com/2016/09/inane-journal-impact-factors.html), an alternative to the standard journal impact factor is to compare the rank-order statistics of the most cited articles in that each journal; by this metric, too, the usual suspects emerge as most reputable. Code for scraping and plot [here](https://github.com/MichaelChirico/assorted_code/blob/master/econ_journal_csp.R).
+* [Citation Signature Plot of Economics Journals](http://imgur.com/uHTa4sG): As suggested by [Frank Diebold](http://fxdiebold.blogspot.com/2016/09/inane-journal-impact-factors.html), an alternative to the standard journal impact factor is to compare the rank-order statistics of the most cited articles in each journal; by this metric, too, the usual suspects emerge as most reputable. Code for scraping and plot [here](https://github.com/MichaelChirico/assorted_code/blob/master/econ_journal_csp.R).
 
 * [Admittance of Iraqi Refugees to the US](http://imgur.com/YyW97yZ): Scraping data from the US Department of State website, plot the number of refugees from Iraq admitted to the US each month since October, 2007. Add to this a three-month moving average, and a shading surrounding the stated period of "re-vetting" following the discovery of a shortcoming in this process _circa_ May, 2011.
 
