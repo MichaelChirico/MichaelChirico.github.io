@@ -14,7 +14,7 @@
 
 ## R Packages
 
-* [`funchir`](https://github.com/MichaelChirico/funchir): convenience functions. I may or may not eventually push to CRAN.
+* [`funchir`](https://github.com/MichaelChirico/funchir): convenience functions. On CRAN [here](https://cran.r-project.org/web/packages/funchir/index.html).
 
 * [`texr`](https://github.com/MichaelChirico/texr): simple, robust interface for converting R objects into TeX tables, etc. Very early-stage.
 
