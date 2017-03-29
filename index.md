@@ -24,6 +24,8 @@
 
 ![1-week Forecast of All Calls for Service](all_1w.png "1-week Forecast of All Calls for Service")
 
+* [Distribution of Initials](http://i.imgur.com/FbOqTcF.png): Derived from the roughly 85 million observations in the [Social Security Death Master File](http://ssdmf.info/), a simple two-way table-as-heat-map showing the most- and least-common initials in the United States. There's also this [interactive `shiny` applet](https://michaelchirico.shinyapps.io/social_security_names/) which displays the top 10 initial pairs in each year. Code using `data.table`, `iotools`, `RColorBrewer`, `funchir`, and `shiny` found [here](https://github.com/MichaelChirico/assorted_code/tree/master/social_security_names); also includes some reduced-size .csv files containing aggregated counts.
+
 * [All-Time MLB Home Run Leaders](https://michaelchirico.shinyapps.io/home_runs/): I made a `shiny` app which depicts, for a chosen year, the make-up of the top-ten list in the MLB for all-time home runs, and the trajectory of how each player's HR count evolved over the course of their career. The code for this is [here](https://github.com/MichaelChirico/assorted_code/tree/master/home_runs).
 
 * [Competitiveness of Major Sports Leagues](http://imgur.com/dy8ym3Y): Using the Gini coefficient on win percentages within a season (recorded from a web scraping exercise) to quantify the evolution over time of the competitiveness of each of the four major sports leagues in the USA -- NFL, MLB, NBA, and NHL. Code [here](https://github.com/MichaelChirico/assorted_code/blob/master/sports_gini.R).
