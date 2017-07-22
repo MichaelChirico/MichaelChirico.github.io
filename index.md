@@ -16,6 +16,8 @@
 
 * [`funchir`](https://github.com/MichaelChirico/funchir): convenience functions. On CRAN [here](https://cran.r-project.org/web/packages/funchir/index.html).
 
+* [`vcov`](https://github.com/MichaelChirico/vcov): fast methods for computing covariance matrices from model objects; especially useful for bootstrapping. On CRAN [here](https://cran.r-project.org/web/packages/vcov/index.html).
+
 * [`texr`](https://github.com/MichaelChirico/texr): simple, robust interface for converting R objects into TeX tables, etc. Very early-stage.
 
 ## Miscellany
