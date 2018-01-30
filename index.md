@@ -22,7 +22,7 @@
 
 ## Miscellany
 
-* [`portland`](https://github.com/MichaelChirico/portland): Code associated with Team Kernel Glitch's submission to the [NIJ Real-Time Forecasting Challenge](https://www.nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx), evaluation of which is ongoing.
+* [`portland`](https://github.com/MichaelChirico/portland): Code associated with Team Kernel Glitch's submission to the [NIJ Real-Time Forecasting Challenge](https://www.nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx), where we tied for first place in the Large Business category; [working paper](https://arxiv.org/abs/1801.02858).
 
 ![1-week Forecast of All Calls for Service](all_1w.png "1-week Forecast of All Calls for Service")
 
